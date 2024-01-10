@@ -458,3 +458,29 @@ html {
 .notify_info{
     padding: 0px 10px;
 }
+/* right_adn */
+.text-primary {
+    padding-top: 40px;
+    color: #0f0f0f !important;
+
+}
+.reg_teach_item {
+    display: inline-block;
+    width: 100%; 
+  }
+form {
+    margin-left: 20px;
+}
+.change-type-password {
+    position: absolute;
+    right: .35rem;
+    top: 0;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+

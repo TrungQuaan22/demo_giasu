@@ -1,0 +1,162 @@
+<html lang="vi">
+
+<head>
+    <base href="/">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Kết Nối Gia Sư
+    </title>
+    <link rel="stylesheet" href="../ketnoigiasu.vn/assets/web/css/bootstrap0f16.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+
+    <link rel="stylesheet" href="../ketnoigiasu.vn/assets/web/font-awesome/css/all0f16.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <!--Thêm cái dòng này vào chỉ để lấy cái icon chuông-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../tai-khoan/css/doi-mat-khau/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="../ketnoigiasu.vn/assets/web/css/responsive0f16.css" as="style"
+        onload="this.onload=null;this.rel='stylesheet'">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function toggleMenu(id) {
+            $("#" + id).toggleClass("show");
+        }
+    </script>
+
+<body>
+    <div class="header header-inner">
+        <div class="container">
+            <div class="right-header">
+                <div class="dropdown">
+                    <div class="cover-i-user" onclick="toggleMenu('header_menu')">
+                        <span> GQ</span>
+                    </div>
+                    <div id="header_menu" class="dropdown-menu " aria-labelledby="dropdownMenuButton_header">
+                        <a class="dropdown-item" href="/tai-khoan/cap-nhat-thong-tin-ca-nhan">Cập nhật thông tin cá
+                            nhân</a>
+                        <a class="dropdown-item" href="/tai-khoan/dang-ky-gia-su">Đăng ký làm gia sư</a>
+                        <a class="dropdown-item" href="/tai-khoan/lop-hoc/student-classes">PH tạo lớp tìm gia sư</a>
+                        <a class="dropdown-item" href="/tai-khoan/doi-mat-khau">Thay đổi mật khẩu</a>
+                        <a class="dropdown-item" href="https://ketnoigiasu.vn/dang-xuat"><i class="fa fa-sign-out mr-1"
+                                aria-hidden="true"></i>Đăng xuất</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li class=""><a href="#">Trang chủ</a></li>
+                    <li><a href="./gia-su-tuyen-sinh.html" class="link-a">Lớp tuyển học sinh </a></li>
+                    <li><a href="./tim-gia-su.html" class="link-a">Tìm gia sư </a></li>
+                    <li><a href="./doi-ngu-gia-su.html" class="link-a">Đội ngũ gia sư </a></li>
+                    <li class="notification_wrap">
+                        <div>
+                            <p>
+                            <div class="notifier new">
+                                <i class="bell fa fa-bell-o" onclick="toggleMenu('list_noti')"></i>
+                                <div class="badge">4</div>
+                            </div>
+                            <div id="list_noti" class="dropdown-menu">
+                                <div class="dropdown-item">
+                                    <div class="notify_info">
+                                        <p>Lớp GS001 của bạn<span>ĐÃ ĐƯỢC PHÊ DUYỆT!</span></p>
+                                        <span class="notify_time">5 minutes ago</span>
+                                    </div>
+                                </div>
+                                <div class="dropdown-item">
+                                    <div class="notify_info">
+                                        <p>Chúc mừng! Bạn đã tạo lớp<span>THÀNH CÔNG</span></p>
+                                        <span class="notify_time">10 minutes ago</span>
+                                    </div>
+                                </div>
+                                <div class="dropdown-item">
+                                    <div class="notify_info">
+                                        <p>Yêu cầu tạo lớp của bạn<span>BỊ TỪ CHỐI</span></p>
+                                        <span class="notify_time">15 minutes ago</span>
+                                    </div>
+                                </div>
+                                <div class="dropdown-item">
+                                    <div class="notify_info">
+                                        <p>Bạn có thêm 1 học sinh<span>CHÚC MỪNG!</span></p>
+                                        <span class="notify_time">20 minutes ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- Menu trái -->
+    <div class="adm-main">
+        <div class="container">
+            <div class="box-adm">
+                <div class="left-adm">
+                    <div class="user-adm">
+                        <div class="cover-i-user">
+                            <span>GQ</span>
+                        </div>
+                        <div class="txt-i-user">
+                            <strong>Giang Trung Quân</strong><br>
+                            <span>giangtrungquan01@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="nav-adm">
+                        <ul>
+                            <li class=""><a href="/tai-khoan/cap-nhat-thong-tin-ca-nhan.html" aria-current="page"
+                                    class="">Cập nhật thông tin cá nhân</a>
+                            </li>
+                            <li class=""><a href="/tai-khoan/dang-ky-gia-su.html" class="">Đăng ký làm gia sư</a></li>
+                            <!---->
+                            <li class=""><a href="/tai-khoan/tao-lop.html" class=""><span> PH tạo lớp tìm gia
+                                        sư </span></a></li> <!---->
+                            <li class="active"><a href="/tai-khoan/doi-mat-khau.html" class="">Thay đổi mật khẩu</a></li>
+                            <li><a href="/dang-xuat">Đăng xuất</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <!--Phải-->
+                    <div class="right-adm">
+                        <div class="content-right-adm">
+                            <div class="title-adm">
+                                <h2>Thay đổi mật khẩu</h2>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="form-group"><label>Mật khẩu cũ</label>
+                                        <div class="position-relative"><input type="password" id="password_origin"
+                                                class="form-control pr-4"> <i
+                                                onclick="changeTypePassword('password_origin',event)" aria-hidden="true"
+                                                class="fa change-type-password fa-eye"></i></div> <!---->
+                                    </div>
+                                </div>
+                                <div class="col-sm-6"></div>
+                                <div class="col-sm-6">
+                                    <div class="form-group"><label>Mật khẩu mới</label>
+                                        <div class="position-relative"><input type="password" id="password_new"
+                                                class="form-control pr-4"> <i
+                                                onclick="changeTypePassword('password_new',event)" aria-hidden="true"
+                                                class="fa change-type-password fa-eye"></i></div> <!---->
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="form-group"><label>Xác nhận mật khẩu mới</label>
+                                        <div class="position-relative"><input type="password" id="password_confirmation"
+                                                class="form-control pr-4"> <i
+                                                onclick="changeTypePassword('password_confirmation',event)"
+                                                aria-hidden="true" class="fa change-type-password fa-eye"></i></div>
+                                        <!---->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bottom-right-adm"><button class="btn btn-light">Hủy bỏ</button> <button
+                                class="btn btn-primary">Lưu</button></div>
+                    </div>

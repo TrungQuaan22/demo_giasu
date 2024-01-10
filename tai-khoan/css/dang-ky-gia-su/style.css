@@ -458,3 +458,16 @@ html {
 .notify_info{
     padding: 0px 10px;
 }
+/* right_adn */
+.text-primary {
+    padding-top: 40px;
+    color: #0f0f0f !important;
+
+}
+.reg_teach_item {
+    display: inline-block;
+    width: 100%; 
+  }
+form {
+    margin-left: 20px;
+}
